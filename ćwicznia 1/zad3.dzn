@@ -1,0 +1,5 @@
+budget = 1505;
+
+n = 6;
+name = ["Owoce","Frytki","Salatka","Skrzydelka","Paluszki","Zestaw_probny"];
+price = [215,275,335,355,420,580];
