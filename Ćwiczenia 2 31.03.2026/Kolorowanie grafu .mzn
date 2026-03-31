@@ -4,7 +4,7 @@ int: nodesNumber = 5;
 int: m = 6; %liczba krawędzi
 int: k = 3; %liczba dostępnych kolorów
 
-% Lista krawędzi - poprawna składnia MiniZinc
+% Lista krawędzi
 array[1..m, 1..2] of int: edgeList = 
 [|1,2|1,5|2,3|3,4|4,5|5,3|];
 

@@ -5,7 +5,7 @@ include "alldifferent.mzn";
 int: S = 3;   
 int: N = S*S; 
 
-% STANDARDOWA plansza testowa (DZIAŁA!)
+% STANDARDOWA plansza testowa
 array[1..N, 1..N] of 0..N: board = 
 [|5,3,0,0,7,0,0,0,0
  |6,0,0,1,9,5,0,0,0
@@ -43,7 +43,7 @@ constraint forall(r in 1..S, c in 1..S)(
 
 solve satisfy;
 
-% NAJPROSTSZY OUTPUT
+%Wynik
 output [
   show(puzzle[i,j]) ++
   if j = N then "\n" else " " endif
